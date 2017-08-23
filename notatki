@@ -1,0 +1,29 @@
+Linki:
+------
+***https://developer.mozilla.org/bm/docs/Web/JavaScript
+
+Pytania:
+---------
+1.Co to first-class citizen?
+To entity/coś co może być przekazywane jako argument do funkcji, zwracane z funkcji, coś co może być modifikowane i
+przypisywane do zmiennej. JavaScript traktuje funkcje jak first-class citizen(obiekty).
+
+2.Dlaczego JS jest językiem interpretowanym?
+Dlatego że nie jest kompilowany do postaci binarnej(tak jak w C, C++) ani kodu pośredniego(Java).
+Kod żródłowy jest interpretowany przez interpreter w przeglądarce internetowej.
+
+3.Jak tworzone sa obiekty w JS?
+Najpierw jest tworzony pusty obiekt a następnie są do niego attached pola i metody.
+Tak powstały obiekt może stać się wzorcem/prototypem do tworzenia podobnych obiektów.
+
+4.Jaki serwer został napisany w JS?
+Node.js
+
+
+
+PYTANIA:
+1.Jak tworzone są obiekty w JS? Gdzie są przechowywane(sterta/stos)? Czy obiekty mają konstruktory?
+2.Gdzie są przechowywane variable w JS, jaka jest różnica gdy tworzymy przez var nazwa albo gdy stosujemy
+samą nazwę.
+3.Czym się różnią operatory porównania == i ===
+4.Funkcje anonimowe w JS
