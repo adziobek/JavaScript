@@ -1,6 +1,7 @@
 Linki:
 ------
 ***https://developer.mozilla.org/bm/docs/Web/JavaScript
+https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
 
 Pytania:
 ---------
@@ -19,11 +20,16 @@ Tak powstały obiekt może stać się wzorcem/prototypem do tworzenia podobnych 
 4.Jaki serwer został napisany w JS?
 Node.js
 
+5.Do czego służy obiekt localStorage?
+Do przechowywania danych w pamięci przeglądarki.
+https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
+
 
 
 PYTANIA:
 1.Jak tworzone są obiekty w JS? Gdzie są przechowywane(sterta/stos)? Czy obiekty mają konstruktory?
 2.Gdzie są przechowywane variable w JS, jaka jest różnica gdy tworzymy przez var nazwa albo gdy stosujemy
-samą nazwę.
-3.Czym się różnią operatory porównania == i ===
-4.Funkcje anonimowe w JS
+samą nazwę ?
+3.Czym się różnią operatory porównania == i === ?
+4.Funkcje anonimowe w JS?
+5.Dlaczego odświerzanie strony przy otwartej konsoli nie czyści localStorage z zapisanych tam rzeczy?
