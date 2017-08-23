@@ -2,6 +2,8 @@ Linki:
 ------
 ***https://developer.mozilla.org/bm/docs/Web/JavaScript
 https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors
 
 Pytania:
 ---------
@@ -24,7 +26,28 @@ Node.js
 Do przechowywania danych w pamięci przeglądarki.
 https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
 
+6.Do czego służy operator instanceof?
+Sprawdza czy obiekt jest instancją innego obiektu.
 
+7.Czym się różni browser API od Third party API?
+Browser API jest wbudowane w przeglądarkę i daje zbiór metod zaimplementowanych w przeglądarce
+(nie musimy pisać kodu w JS, kod ten już został napisany i zaimplementowany w przeglądarce
+i możemy już z niego korzystać i wywoływać metody).
+Np. DOM API, XMLHttpRequest API
+---
+Third party API nie implementuje przeglądarka, musimy dostarczyć jego kod w JS.
+Np. Google Maps API, Twitter API, FB API
+
+8.Jakie API implementuje Chrome(browser api)?
+DOM, XMLHttpRequest oraz HTML5 APIs: localStorage, application cache
+https://developer.chrome.com/extensions/api_other
+
+9.Jak jest opalany kod JS?
+Każda zakładka w przeglądarce ma swoje własne środowisko uruchomieniowe i kod
+jest uruchomiony w każdej zakładce niezależnie.
+
+10.Jak jest uruchamiany kod JS?
+Interpreter czyta i uruchamia kod od dołu do góry.
 
 PYTANIA:
 1.Jak tworzone są obiekty w JS? Gdzie są przechowywane(sterta/stos)? Czy obiekty mają konstruktory?
@@ -33,3 +56,6 @@ samą nazwę ?
 3.Czym się różnią operatory porównania == i === ?
 4.Funkcje anonimowe w JS?
 5.Dlaczego odświerzanie strony przy otwartej konsoli nie czyści localStorage z zapisanych tam rzeczy?
+6.Jak sprawdzić jakie API implementuje dana przeglądarka?(DOM API, WEB STORAGE API ectr)
+7.Dlaczego skoro kod jest czytany od dołu do góry to funcje w JS mogą być zadeklarowane na końcu strony.
+8.Czy modifikować style za pomocą element.style.backgroundColor czy element.setAttribute('style', '')
