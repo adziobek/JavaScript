@@ -5,6 +5,10 @@ https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors
 
+//Numbers and expression
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Numbers_and_dates
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
+
 Pytania:
 ---------
 1.Co to first-class citizen?
@@ -52,6 +56,13 @@ Interpreter czyta i uruchamia kod od dołu do góry.
 11.Na czym polega variable hoisting w JS?
 Polega to na tym że najpier w kodzie są wyszukiwane deklaracje zmiennych a następnie jest uruchamiany pozostały kod.
 Oznacza to że w kodzie JS można użyć zmiennej nawet jeśli jej deklaracja znajduje się w dalszym miejscu w kodzie.
+
+12.Czy musimy podawać w deklaracji zmiennej jej typ(Number, String)?
+Nie, nie musimy.
+
+13.Czy zmienna może zmieniać swój typ w trakcie pracy programu?
+Tak, zmienna przyjmuje typ w zależności jaką wartość do niej przypiszemy( dla 400 jest to Number, a dla '400' jest to string).
+
 
 PYTANIA:
 1.Jak tworzone są obiekty w JS? Gdzie są przechowywane(sterta/stos)? Czy obiekty mają konstruktory?
