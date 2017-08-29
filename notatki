@@ -49,6 +49,10 @@ jest uruchomiony w każdej zakładce niezależnie.
 10.Jak jest uruchamiany kod JS?
 Interpreter czyta i uruchamia kod od dołu do góry.
 
+11.Na czym polega variable hoisting w JS?
+Polega to na tym że najpier w kodzie są wyszukiwane deklaracje zmiennych a następnie jest uruchamiany pozostały kod.
+Oznacza to że w kodzie JS można użyć zmiennej nawet jeśli jej deklaracja znajduje się w dalszym miejscu w kodzie.
+
 PYTANIA:
 1.Jak tworzone są obiekty w JS? Gdzie są przechowywane(sterta/stos)? Czy obiekty mają konstruktory?
 2.Gdzie są przechowywane variable w JS, jaka jest różnica gdy tworzymy przez var nazwa albo gdy stosujemy
