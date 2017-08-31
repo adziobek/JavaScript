@@ -1,0 +1,66 @@
+Firma Netscape powstała w 1994 roku. Stworzyła przeglądarkę internetową Netscape Navigator
+na podstawie której powstała potem przeglądarka Mozilla. Stworzyła również język JavaScript.
+Język ten na początku miał wiele odniesień do przeglądarki Mozilla(co było problemem dla innych
+przeglądarek).
+
+W 1996 organizacja ECMA zaczęła pracę nad specyfikacją JavaScriptu niezależną od
+przeglądarki. Język opisany w standardzie ECMA-262 został nazwany ECMAScript.
+Od tego momentu nazwa JavaScript oznacza jedynie jeden z nadzbiorów języka ECMAScript.
+
+Cechy języka:
+-Java Script jest case sensitive, TIME i time to 2 różne zmienne
+-Komentarze // lub <-- to komentarze liniowe, /**/ to komentarz blokowy
+
+Przeglądarki wspierają JavaScript. Można to wyłączyć/włączyć w ustawieniach przeglądarki, np.
+w Chromie: Ustawienia/prywatność/ zezwalaj na wykonywanie kodu JavaScript w witrynach.
+
+********************************
+Typy danych
+W JS są trzy podstawowe, proste typy danych:
+-number
+-string
+-boolean
+
+********************************
+Zmienne
+variable(zmienna) - nazwany kontener na dane. Zmienne mogą przechowywać dane każdego typu.
+Typ przechowywanej pod zmienną danej może się zmieniac w czasie pracy programu.
+
+Variable scope
+Global variable - zmienną globalną można definiowac i odwoływać się do niej w każdym
+                    miejscu programu.
+Local variable - zmienna lokalkną można definiować tylko w funkcji i w funkcji z niej
+                    korzystać. Parametry/argumenty funkcji są też zmiennymi lokalnymi
+                    tej funckji.
+
+W ciele fukncji zmienna lokalna przesłania globalną o tej samej nazwie.
+
+Nazewnictwo zmiennych:
+-nie używamy kaywordów, tj. break, boolean
+-zaczyna się od litery lub podkreśnika _ (nigdy od cyfry)
+-case sensitive
+
+a + b
+a,b - operands
++ - operator
+
+
+*******************
+Skąd mamy corowe funkcje JS?
+Funkcje tj. document.write() każda przeglądarka implementuje na swoj
+sposób. Przeglądarka implementuje wsie funckję danej wersji ECMA scriptu.
+
+
+
+Funkcja globalna - definiowana na najwyższym poziomie w pliku .js (nie zagnieżdzona)
+Jest widoczna w każdym pliku .js importowanym na stronie html. Jej scopem
+jest obiekt window.
+
+Wszystko w pliku js co nie jest w żaden sposób opakowane, przypisane jest do obiektu
+window i na globalny zasięg.
+
+
+//TODO
+Zmienne bez słowa var definiowane
+this
+Różnica między funkcją: globalną, nested, anonimową, literal
