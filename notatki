@@ -63,6 +63,12 @@ Nie, nie musimy.
 13.Czy zmienna może zmieniać swój typ w trakcie pracy programu?
 Tak, zmienna przyjmuje typ w zależności jaką wartość do niej przypiszemy( dla 400 jest to Number, a dla '400' jest to string).
 
+14.Konwersja String <-> Number
+'JS' + 16 ='JS16'
+'16' + '17' = '1617'
+var liczba = Number('12');
+var stringVar = liczba.toString();
+
 
 PYTANIA:
 1.Jak tworzone są obiekty w JS? Gdzie są przechowywane(sterta/stos)? Czy obiekty mają konstruktory?
