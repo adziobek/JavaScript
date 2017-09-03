@@ -5,4 +5,11 @@ console.log(random);
 for (var i = 0; i < random.length; i++) {
     console.log(typeof random[i]);
 }
+
+var cities = 'Warszawa,Poznań,Olsztyn,Giżycko,Mikołajki';
+var citiesArray = cities.split(',');
+console.log(citiesArray);
+console.log('joined cities: ' + citiesArray.join(';'));
+console.log('joined cities: ' + citiesArray.toString());
+
 console.log('***arrays***');
